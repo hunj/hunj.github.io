@@ -1,51 +1,83 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
 
-    {% include meta.html %}
+<head>
+  <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
 
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+  {% include meta.html %}
 
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
 
-    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
-  </head>
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+  <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml"
+  />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+</head>
 
-  <body>
-    <div class="wrapper-masthead">
-      <div class="container">
-        <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
-
-          <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
+<body>
+  <section class="hero">
+    <div class="hero-head">
+      <nav class="navbar">
+        <div class="container">
+          <div class="navbar-brand">
+            <a class="navbar-item" href="{{ site.baseurl }}/">
+              <img src="{{ site.avatar }}" alt="Logo">
+            </a>
+            <span class="navbar-burger burger" data-target="navbarMenuHeroA">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
           </div>
-
-          <nav>
-            <a href="{{ site.baseurl }}/">Blog</a>
-            <a href="{{ site.baseurl }}/about">About</a>
-          </nav>
-        </header>
+          <div id="navbarMenuHeroA" class="navbar-menu">
+            <div class="navbar-end">
+              <a href="{{ site.baseurl }}/" class="navbar-item">
+                Blog
+              </a>
+              <a href="{{ site.baseurl }}/about" class="navbar-item">
+                About
+              </a>
+              <span class="navbar-item">
+                <a href="http://github.com/marifersahin/blmjkll" class="button is-primary is-inverted">
+                  <span class="icon">
+                    <i class="fa fa-github"></i>
+                  </span>
+                  <span>Download</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        <h1 class="title">
+          <a href="{{ site.baseurl }}/">{{ site.name }}</a>
+        </h1>
+        <p class="subtitle">{{ site.description }}</p>
       </div>
     </div>
+  </section>
 
-    <div id="main" role="main" class="container">
-      {{ content }}
-    </div>
-
-    <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
-          {% include svg-icons.html %}
-        </footer>
+  <div id="main" role="main" class="container">
+    <div class="columns">
+      <div class="column is-10-mobile is-offset-1-mobile is-half is-offset-one-quarter">
+        <div class="content">
+          {{ content }}
+        </div>
       </div>
     </div>
+  </div>
 
-    {% include analytics.html %}
-  </body>
+  <footer class="footer">
+    {% include svg-icons.html %}
+  </footer>
+
+  {% include analytics.html %}
+</body>
+
 </html>

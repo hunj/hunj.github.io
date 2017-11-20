@@ -1,5 +1,6 @@
 ---
 layout: post
+date: 2015-11-20
 title: You're up and running!
 ---
 
