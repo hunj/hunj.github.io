@@ -5,6 +5,16 @@
 // IMPORTS
 //
 
+@import "bulma-sass/utilities/initial-variables";
+@import "bulma-sass/utilities/functions";
+@import url('https://fonts.googleapis.com/css?family=Nanum+Brush+Script|Nanum+Gothic+Coding|Nanum+Myeongjo|Nanum+Pen+Script');
+
+// Define a new serif font
+$family-serif: 'Nanum Myeongjo', serif;
+
+// Apply serif font as primary font
+$family-primary: $family-serif;
+
 @import "bulma";
 // Syntax highlighting @import is at the bottom of this file
 
@@ -33,6 +43,9 @@ h1 {
 
 h2 {
   font-size: 24px;
+  a {
+    color: inherit;
+  }
 }
 
 h3 {
@@ -47,11 +60,6 @@ p {
   margin: 15px 0;
 }
 
-.hero {
-  border-bottom: 1px solid #ddd;
-  margin-bottom: 50px;
-}
-
 footer {
   margin-top: 50px;
   padding: 20px 0;
@@ -60,6 +68,18 @@ footer {
 
 .hero-body img{
   max-height: 10em;
+}
+
+.is-nanum-pen {
+  font-family: 'Nanum Pen Script', cursive;
+}
+
+.is-nanum-brush {
+  font-family: 'Nanum Brush Script', cursive;
+}
+
+pre {
+  text-align: left;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
