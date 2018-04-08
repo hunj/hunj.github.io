@@ -8,7 +8,11 @@ name: Hun Jae Lee
 
 # Short bio or description (displayed in the header)
 description: Software Developer
-bio: "Born & raised in Seoul, Korea<br>Residing in Cleveland, OH."
+bio: "Born & raised in Seoul, Korea.<br>Residing in Cleveland, OH."
+
+# Metatag for SEO
+meta_description: "Hun Jae (@hunj) is a software developer originally from Seoul, Korea."
+meta_image_url: "http://{{ site.baseurl }}/images/meta.png"
 
 #
 # Flags below are optional
