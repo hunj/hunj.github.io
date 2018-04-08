@@ -20,6 +20,4 @@
     <meta property="twitter:title" content="{{ site.site_name }}" />
     {% endif %}
 
-    {% if site.meta_image_url %}
-    <meta property="" content="{{ site.meta_image_url }}" />
-    {% endif %}
+    <meta property="og:image" content="{{ site.url }}{{ site.meta_image_path }}" />
