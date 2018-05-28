@@ -23,6 +23,17 @@
   <link rel="shortcut icon" href="{{ site.baseurl }}/images/favicon.ico">
   <meta name="msapplication-config" content="{{ site.baseurl }}/images/browserconfig.xml">
   <meta name="theme-color" content="#ffffff">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', '{{ site.google_analytics }}');
+  </script>
+
 </head>
 
 <body>
