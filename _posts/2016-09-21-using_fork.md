@@ -16,7 +16,7 @@ tags: linux
 
 다음은 C로 자식 프로세스를 생성하는 예제이다:
 
-{% highlight c %}
+```c
 #include <stdio.h>
 
 int main() {
@@ -51,7 +51,7 @@ int main() {
   }
   return 0;
 }
-{% endhighlight %}
+```
 
 ### 유의사항
 
@@ -63,7 +63,7 @@ int main() {
 
 메모리를 공유하기 때문에 병렬 연산도 가능하다.
 
-{% highlight c %}
+```c
 // for 문으로 1부터 세어올라갈 숫자
 #define N               100000000
 
@@ -107,7 +107,7 @@ int main() {
   wait(NULL);
   return 0;
 }
-{% endhighlight %}
+```
 
 ## 마치며
 
