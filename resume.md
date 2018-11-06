@@ -46,7 +46,6 @@ permalink: /resume/
 ## Education
 
 ##### **Bachelor's Degree in Computer Science** <small>Case Western Reserve University•Cleveland, OH - May 2017</small>
-- Activities: Member, Hacker Society
 
 ## Other Experience
 
