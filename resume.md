@@ -37,7 +37,7 @@ _Develop/maintain frontend & backend, deliver SEO, lead UI/UX design, assist in 
 ##### **QA & System Engineer, Intern** <small>ISE Commerce•Seoul, Korea (May-Nov 2015)</small>
 
 - Conducted load/stress tests on Web & DB servers using Apache JMeter
-- Architected replicated structure on [UCloud](https://www.ucloud.cn/), fine-tuning nginx configurations to handle ~10 mil. traffic on [Single's Day](https://en.wikipedia.org/wiki/Singles%27_Day) in China.
+- Architected replicated structure on [UCloud](https://www.ucloud.cn/), fine-tuning nginx configurations to handle ~1 mil. traffic on [Single's Day](https://en.wikipedia.org/wiki/Singles%27_Day) in China.
 
 ## Other Experiences
 
