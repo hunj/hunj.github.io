@@ -42,6 +42,9 @@ footer-links:
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics: UA-62581922-1
 
+# Enter your Microsoft Clarity web tracking code to activate tracking
+microsoft_clarity: 5afr66dx7y
+
 # Your website URL (e.g. http://marifersahin.github.io or http://www.marifersahin.com)
 # Used for Sitemap.xml and your RSS feed
 url: http://hunj.dev
