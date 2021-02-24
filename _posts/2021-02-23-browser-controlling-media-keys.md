@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2021-02-23
-title: 브라우저가 키보드의 멀티미디어
+title: 브라우저가 키보드의 멀티미디어 키로 조작되지 않게 하기
 subtitle: 음악 재생, 이전/다음 곡 등 멀티미디어 특수 키 기능이 있는 키보드가 브라우저에서 재생되고 있는 동영상을 조작하지 않게 하자.
 tags: chrome firefox tech-tips
 ---
