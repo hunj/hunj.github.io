@@ -26,7 +26,7 @@ footer-links:
   flickr:
   github: hunj
   instagram:
-  linkedin:
+  linkedin: hunj
   pinterest:
   rss: hunj # just type anything here for a working RSS icon
   twitter: dev_hunj
@@ -44,7 +44,7 @@ google_analytics: UA-62581922-1
 
 # Your website URL (e.g. http://marifersahin.github.io or http://www.marifersahin.com)
 # Used for Sitemap.xml and your RSS feed
-url: http://hunj.me
+url: http://hunj.dev
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
