@@ -9,8 +9,8 @@ layout: default
       {% for post in site.posts %}
       <article class="post">
 
-        <h1 class="title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-        <h2 class="subtitle"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.subtitle }}</a></h2>
+        <a href="{{ site.baseurl }}{{ post.url }}"><h1 class="title">{{ post.title }}</h1></a>
+        <a href="{{ site.baseurl }}{{ post.url }}"><h2 class="subtitle">{{ post.subtitle }}</h2></a>
 
         <div class="date has-text-right">
           Written on {{ post.date | date: "%B %e, %Y" }}
