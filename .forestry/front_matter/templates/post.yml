@@ -6,10 +6,10 @@ fields:
 - type: text
   name: layout
   label: layout
-  hidden: true
+  hidden: false
   default: post
   config:
-    required: true
+    required: false
 - type: datetime
   name: date
   label: date
