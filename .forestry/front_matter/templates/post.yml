@@ -10,7 +10,11 @@ fields:
 - type: datetime
   name: date
   label: date
-  hidden: true
+  hidden: false
+  config:
+    export_format: YYYY-MM-DD
+    required: true
+  default: now
 - type: text
   name: title
   label: title
