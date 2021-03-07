@@ -14,7 +14,9 @@ fields:
   config:
     export_format: YYYY-MM-DD
     required: true
-  default: now
+    time_format: ''
+    display_utc: false
+  default: '2021-03-06'
 - type: text
   name: title
   label: title
