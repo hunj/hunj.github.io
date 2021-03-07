@@ -78,6 +78,15 @@ footer {
   font-family: 'Nanum Brush Script', cursive;
 }
 
+.column > .content {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.column > .date {
+  margin-bottom: 1.5rem;
+}
+
 .utterances {
   max-width: none;
   margin-left: 1rem;
