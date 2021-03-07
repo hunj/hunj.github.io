@@ -4,25 +4,25 @@ date: 2020-11-29
 title: URL Validation in Python & Django
 subtitle: URL 유효성을 검사하여 True/False 반환
 tags: python django
----
 
+---
 # Python
 
 Using urllib library
 
-{% highlight python %}
+```python
 from urllib.parse import urlparse
 
 def valid_url(to_validate:str) -> bool:
     o = urlparse(to_validate)
     return True if o.scheme and o.netloc else False
-{% endhighlight %}
+```
 
 # Django
 
 Using core validator's URLValidator
 
-{% highlight python %}
+```python
 from django.core.validators import URLValidator
 from django.core.exceptions import ValidationError
 
@@ -38,4 +38,4 @@ def valid_url(to_validate:str) -> bool:
         # handle exception..
         print(exception)
         return False
-{% endhighlight %}
+```
