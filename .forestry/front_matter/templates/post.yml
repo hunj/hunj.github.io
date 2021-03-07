@@ -34,3 +34,7 @@ fields:
     schema:
       format: markdown
   label: subtitle
+- name: tags
+  type: tag_list
+  default: []
+  label: tags
