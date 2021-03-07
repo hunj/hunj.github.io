@@ -25,3 +25,12 @@ fields:
   config:
     required: true
   label: title
+- name: subtitle
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: subtitle
