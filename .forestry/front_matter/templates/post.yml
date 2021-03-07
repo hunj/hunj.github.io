@@ -20,3 +20,8 @@ fields:
     display_utc: false
     export_format: YYYY-MM-DD
   default: now
+- name: title
+  type: text
+  config:
+    required: true
+  label: title
