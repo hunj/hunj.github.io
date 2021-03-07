@@ -20,5 +20,3 @@ fields:
 - type: text
   name: tags
   label: tags
-pages:
-- _posts/forestry-test-post.md
