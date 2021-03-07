@@ -1,0 +1,24 @@
+---
+label: Post
+hide_body: true
+display_field: title
+fields:
+- type: text
+  name: layout
+  label: layout
+  hidden: true
+- type: datetime
+  name: date
+  label: date
+  hidden: true
+- type: text
+  name: title
+  label: title
+- type: text
+  name: subtitle
+  label: subtitle
+- type: text
+  name: tags
+  label: tags
+pages:
+- _posts/forestry.io-test-post.md
