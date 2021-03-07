@@ -3,7 +3,9 @@ layout: post
 date: 2020-11-29
 title: URL Validation in Python & Django
 subtitle: URL 유효성을 검사하여 True/False 반환
-tags: python django
+tags:
+- python
+- django
 
 ---
 # Python
