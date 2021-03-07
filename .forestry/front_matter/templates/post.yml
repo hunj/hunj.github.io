@@ -7,6 +7,9 @@ fields:
   name: layout
   label: layout
   hidden: true
+  default: post
+  config:
+    required: true
 - type: datetime
   name: date
   label: date
