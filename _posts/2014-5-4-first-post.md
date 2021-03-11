@@ -19,9 +19,9 @@ tags: life
 - 조잡하게 만들어진 WYSIWYG 에디터를 쓰기보단 차라리 내가 하드코딩을 하고싶은 부분이 좀 있는데, 동시에 알짜배기 기능 정도는 [Markdown](http://en.wikipedia.org/wiki/Markdown)을 이용해서 처리할 수 있다.
 - 무엇보다도.. 공짜다!
 
-{% highlight ruby %}
+```ruby
 print "Hello World" #	=> "Hello World"
-{% endhighlight %}
+```
 
 이런식으로 코드도 적을 수 있고 참 편한 것 같다!
 
