@@ -8,9 +8,10 @@
 @import "bulma-sass/utilities/initial-variables";
 @import "bulma-sass/utilities/functions";
 @import url('https://fonts.googleapis.com/css?family=Nanum+Brush+Script|Nanum+Gothic+Coding|Nanum+Myeongjo|Nanum+Pen+Script');
+@import url('//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css');
 
 // Define a new serif font
-$family-serif: 'Nanum Myeongjo', serif;
+$family-serif: 'Spoqa Han Sans Neo', sans-serif;
 
 // Apply serif font as primary font
 $family-primary: $family-serif;
