@@ -3,8 +3,11 @@
 #
 
 # Name of your site (displayed in the header)
-site_name: "hunj::devlog"
-name: Hun Jae Lee
+title: "hunj::devlog"
+author:
+  name: Hun Jae Lee
+  email: hunjael@gmail.com
+  uri: https://hunj.dev
 
 # Metatag for SEO
 meta_description: "Software development blog"
