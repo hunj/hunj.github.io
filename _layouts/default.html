@@ -24,23 +24,8 @@
   <meta name="theme-color" content="#ffffff">
 </head>
 
-<body>
-  <section class="hero is-primary">
-    <div class="hero-head">
-      {% include navbar.html %}
-    </div>
-    {% if page.id == '/' %}
-      <div class="hero-body">
-        <div class="container has-text-centered">
-          <h1 class="title is-nanum-brush">
-            {{ site.site_name }}
-          </h1>
-          <h2 class="subtitle is-nanum-pen">{{ site.description }}</h2>
-          <p class="">{{ site.bio }}</p>
-        </div>
-      </div>
-    {% endif %}
-  </section>
+<body class="has-navbar-fixed-top">
+  {% include navbar.html %}
 
   {{ content }}
 

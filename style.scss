@@ -7,59 +7,17 @@
 
 @import "bulma-sass/utilities/initial-variables";
 @import "bulma-sass/utilities/functions";
-@import url('https://fonts.googleapis.com/css?family=Nanum+Brush+Script|Nanum+Gothic+Coding|Nanum+Myeongjo|Nanum+Pen+Script');
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding|Lobster|Open+Sans');
 @import url('//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css');
 
 // Define a new serif font
-$family-serif: 'Spoqa Han Sans Neo', sans-serif;
+$family-serif: 'Open Sans', 'Spoqa Han Sans Neo', sans-serif;
 
 // Apply serif font as primary font
 $family-primary: $family-serif;
 
 @import "bulma";
 // Syntax highlighting @import is at the bottom of this file
-
-/**************/
-/* BASE RULES */
-/**************/
-
-h1, h2, h3, h4, h5, h6 {
-  font-weight: bold;
-
-  line-height: 1.7;
-  margin: 1em 0 15px;
-  padding: 0;
-
-  @include mobile {
-    line-height: 1.4;
-  }
-}
-
-h1 {
-  font-size: 30px;
-  a {
-    color: inherit;
-  }
-}
-
-h2 {
-  font-size: 24px;
-  a {
-    color: inherit;
-  }
-}
-
-h3 {
-  font-size: 20px;
-}
-
-h4 {
-  font-size: 18px;
-}
-
-p {
-  margin: 15px 0;
-}
 
 footer {
   margin-top: 50px;
@@ -71,21 +29,12 @@ footer {
   max-height: 10em;
 }
 
-.is-nanum-pen {
-  font-family: 'Nanum Pen Script', cursive;
+.is-full-height {
+  height: 100%;
 }
 
-.is-nanum-brush {
-  font-family: 'Nanum Brush Script', cursive;
-}
-
-.column > .content {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-}
-
-.column > .date {
-  margin-bottom: 1.5rem;
+.date {
+  margin-top: auto;
 }
 
 .utterances {
@@ -96,6 +45,34 @@ footer {
 
 pre {
   text-align: left;
+}
+
+.navbar-brand {
+  font-family: 'Lobster';
+}
+
+.bg-img-cleveland {
+  min-height: 400px;
+  background-image: url('https://raw.githubusercontent.com/hunj/hunj.github.io/main/images/cleveland.jpg');
+  position: relative;
+}
+
+.bg-cover {
+  background-position: center bottom;
+  background-size: cover;
+}
+
+.bg-fade-overlay {
+  background-color: rgba(4, 20, 69, 0.18);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.is-full-width {
+  width: 100%;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS

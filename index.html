@@ -2,28 +2,40 @@
 layout: default
 ---
 
+<div class="section-bg bg-img-cleveland bg-cover bg-fade">
+  <div class="bg-fade-overlay"></div>
+</div>
+
+<div class="is-flex is-justify-content-center" style="margin: -64px auto 64px auto; padding-bottom: 64px;">
+  <img src="{{ site.author.avatar }}" style="width: 128px; height: 128px; position: absolute; border-style:solid; border-color: #fff; border-width: 0.25rem; border-radius: 100%">
+</div>
+<div class="container is-medium has-text-centered pb-4">
+  <h1 class="title">{{ site.author.name }}</h1>
+  <h2 class="subtitle">{{ site.author.title }} in {{ site.author.location }}</h2>
+</div>
+
 <div class="container">
-  <div class="columns is-centered is-mobile">
-    <div class="column is-four-fifths">
+  <section class="my-4">
+    <div class="columns is-flex is-flex-direction-row is-flex-wrap-wrap is-align-items-stretch">
+      {% assign blog_preview = site.posts | slice:0, 6%}
+      {% for post in blog_preview %}
+      <article class="column is-full-mobile is-full-tablet is-one-third-desktop is-flex is-align-content-stretch">
+        <div class="card is-full-width">
+          <div class="card-content is-full-height">
+            <div class="content is-full-height is-flex is-flex-direction-column">
 
-      {% for post in site.posts %}
-      <article class="post">
-
-        <a href="{{ site.baseurl }}{{ post.url }}"><h1 class="title">{{ post.title }}</h1></a>
-        <a href="{{ site.baseurl }}{{ post.url }}"><h2 class="subtitle">{{ post.subtitle }}</h2></a>
-
-        <div class="date has-text-right">
-          Written on {{ post.date | date: "%B %e, %Y" }}
+              <a href="{{ site.baseurl }}{{ post.url }}"><h1 class="title">{{ post.title }}</h1></a>
+              <p>{{ post.subtitle }}</p>
+              
+              <div class="date has-text-right">
+                <small>{{ post.date | date: "%b %e, %Y" }}</small>
+              </div>
+              
+            </div>
+          </div>
         </div>
-
       </article>
-
-      {% if forloop.last == false %}
-        <hr>
-      {% endif %}
-
       {% endfor %}
-
     </div>
-  </div>
+  </section>
 </div>
