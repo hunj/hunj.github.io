@@ -15,8 +15,8 @@ layout: default
 </div>
 
 <div class="container">
-  <section class="my-4">
-    <div class="columns is-flex is-flex-direction-row is-flex-wrap-wrap is-align-items-stretch">
+  <section class="py-4">
+    <div class="columns is-flex is-flex-direction-row is-flex-wrap-wrap is-align-items-stretch mb-6">
       {% assign blog_preview = site.posts | slice:0, 6%}
       {% for post in blog_preview %}
       <article class="column is-full-mobile is-full-tablet is-one-third-desktop is-flex is-align-content-stretch">
@@ -37,5 +37,8 @@ layout: default
       </article>
       {% endfor %}
     </div>
+    
+    <p class="has-text-centered">- <a href="/blog">Read More</a> -</p>
+
   </section>
 </div>
