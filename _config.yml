@@ -4,6 +4,7 @@
 
 # Name of your site (displayed in the header)
 title: "hunj::devlog"
+description: "Software development blog"
 author:
   name: Hun Jae Lee
   avatar: https://avatars.githubusercontent.com/u/3972717?u=02580682c6f88744673f9cc7c79cc9fa50482826
@@ -23,7 +24,7 @@ meta_image_path: "/images/meta.png"
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email: admin@hunj.dev
+  email: hunjael@gmail.com
   facebook:
   flickr:
   github: hunj
