@@ -7,6 +7,7 @@ permalink: /resume/
 # Hun Jae Lee
 [hunjael＠gmail.com](mailto:hunjael@gmail.com)
 
+
 # Summary
 
 Web developer who thrives in an agile development environment in a rapidly-growing startup atmosphere. Specializes in Python/Django backend as well as UI/UX development using various front-end technologies. Experience in testing, monitoring, and deploying using Docker and Github Actions.
@@ -30,12 +31,12 @@ Web developer who thrives in an agile development environment in a rapidly-growi
 
 _Develop/maintain frontend & backend, deliver SEO, lead UI/UX design, assist in devops and troubleshooting, trace errors and respond to outages_
 
-- Created web scraper using python-requests, Selenium, BeautifulSoup, and lxml to load, parse, and transform client data
-- Created URL shortener/redirector system to improve client's SEO exposure & provide analytics
+- Created dynamic config-driven web scraper using python-requests, Selenium, BeautifulSoup, and lxml to load, parse, and transform client data
+- Applied TDD principles in prototyping URL shortener/redirector system to improve client's SEO exposure & provide analytics
 - Composed Python script cron jobs for Jenkins to run data import process and send customer notification emails
-- Implemented internal billing API to interact with [Stripe](http://stripe.com/) payment gateway
+- Architected internal billing API & its test suite to interact with [Stripe](http://stripe.com/) payment gateway
 - Standardized documentations to setup development environment for onboarding process
-- Designed customer newsletter emails and implemented setup over [Mailchimp](http://mailchimp.com) & [Postmark](https://postmarkapp.com/)
+- Designed customer newsletter emails and configured scheduled delivery over [Mailchimp](http://mailchimp.com) & [Postmark](https://postmarkapp.com/)
 - [Marketed & pitched](https://www.facebook.com/casewesternreserve/photos/need-a-job-these-guys-will-help-you-find-it-cwru-alums-hun-jae-lee-and-ettore-fa/10156119226498086/) the product website at [CES 2018](https://www.ces.tech/) (Las Vegas, NV)
 
 **Software Developer, Intern** <small>@ Securable.io - Cleveland, OH (May-Jul 2017)</small>
@@ -47,7 +48,7 @@ _Develop/maintain frontend & backend, deliver SEO, lead UI/UX design, assist in 
 **QA & System Engineer, Intern** <small>@ ISE Commerce - Seoul, Korea (May-Nov 2015)</small>
 
 - Conducted load/stress tests on Web & DB servers using Apache JMeter
-- Architected replicated structure on [UCloud](https://www.ucloud.cn/), fine-tuning nginx configurations to handle ~1 mil. traffic on peak day
+- Constructed replicated structure on [UCloud](https://www.ucloud.cn/), fine-tuning nginx configurations to handle ~1 mil. traffic on peak day
 
 
 # Other Experience
@@ -55,7 +56,7 @@ _Develop/maintain frontend & backend, deliver SEO, lead UI/UX design, assist in 
 **Mentor & Development Lead** <small>@ Hackathon Mentors - Remote (Jan 2020 - Present)</small>
 
 - Volunteer at hackathons to help attendees brainstorm, ideate, and troubleshoot during the event
-- (Currently) creating a website using  that displays upcoming hackathon events and provides a community to keep attendees connected
+- (Currently) creating a website that displays upcoming hackathon events and provides a community forum to keep attendees and organizers connected
 
 
 # Education
